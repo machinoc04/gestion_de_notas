@@ -1,1 +1,166 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de Gestión Académica - Liceo Albonor</title>
+</head>
+<body>
+    <h1>Liceo Albonor</h1>
+    <h2>Sistema de Gestión Académica</h2>
+    
+    <hr>
+    
+    <h3>Iniciar Sesión</h3>
+    <form>
+        <p>Usuario: <input type="text"></p>
+        <p>Contraseña: <input type="password"></p>
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+    
+    <hr>
+    
+    <h3>Seleccionar Curso</h3>
+    <p>Curso:</p>
+    <select>
+        <option>Seleccione un curso</option>
+        <option>1° Año A</option>
+        <option>1° Año B</option>
+        <option>2° Año A</option>
+        <option>2° Año B</option>
+        <option>3° Año A</option>
+        <option>3° Año B</option>
+    </select>
+    <br><br>
+    <button>Seleccionar</button>
+    
+    <hr>
+    
+    <h3>Registrar Asistencia</h3>
+    <p>Fecha: <input type="date"></p>
+    <p>Curso: 1° Año A</p>
+    <table border="1">
+        <tr>
+            <th>Estudiante</th>
+            <th>Presente</th>
+            <th>Ausente</th>
+        </tr>
+        <tr>
+            <td>Ana González</td>
+            <td><input type="radio" name="ana" value="presente"></td>
+            <td><input type="radio" name="ana" value="ausente"></td>
+        </tr>
+        <tr>
+            <td>Carlos Pérez</td>
+            <td><input type="radio" name="carlos" value="presente"></td>
+            <td><input type="radio" name="carlos" value="ausente"></td>
+        </tr>
+        <tr>
+            <td>María Rodríguez</td>
+            <td><input type="radio" name="maria" value="presente"></td>
+            <td><input type="radio" name="maria" value="ausente"></td>
+        </tr>
+    </table>
+    <br>
+    <button>Guardar Asistencia</button>
+    
+    <hr>
+    
+    <h3>Registrar Notas</h3>
+    <p>Materia: 
+        <select>
+            <option>Matemáticas</option>
+            <option>Español</option>
+            <option>Ciencias</option>
+            <option>Historia</option>
+        </select>
+    </p>
+    <p>Curso: 1° Año A</p>
+    <table border="1">
+        <tr>
+            <th>Estudiante</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>Ana González</td>
+            <td><input type="number" min="0" max="20" step="0.1"></td>
+        </tr>
+        <tr>
+            <td>Carlos Pérez</td>
+            <td><input type="number" min="0" max="20" step="0.1"></td>
+        </tr>
+        <tr>
+            <td>María Rodríguez</td>
+            <td><input type="number" min="0" max="20" step="0.1"></td>
+        </tr>
+    </table>
+    <br>
+    <button>Guardar Notas</button>
+    
+    <hr>
+    
+    <h3>Ver Registros</h3>
+    <p>Tipo de registro:</p>
+    <select>
+        <option>Asistencias</option>
+        <option>Notas</option>
+    </select>
+    <button>Ver</button>
+    
+    <br><br>
+    
+    <h4>Registros de Asistencia</h4>
+    <table border="1">
+        <tr>
+            <th>Fecha</th>
+            <th>Curso</th>
+            <th>Estudiante</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td>16/06/2025</td>
+            <td>1° Año A</td>
+            <td>Ana González</td>
+            <td>Presente</td>
+        </tr>
+        <tr>
+            <td>16/06/2025</td>
+            <td>1° Año A</td>
+            <td>Carlos Pérez</td>
+            <td>Ausente</td>
+        </tr>
+    </table>
+    
+    <br>
+    
+    <h4>Registros de Notas</h4>
+    <table border="1">
+        <tr>
+            <th>Estudiante</th>
+            <th>Materia</th>
+            <th>Nota</th>
+            <th>Fecha</th>
+        </tr>
+        <tr>
+            <td>Ana González</td>
+            <td>Matemáticas</td>
+            <td>18.5</td>
+            <td>15/06/2025</td>
+        </tr>
+        <tr>
+            <td>Carlos Pérez</td>
+            <td>Matemáticas</td>
+            <td>16.0</td>
+            <td>15/06/2025</td>
+        </tr>
+    </table>
+    
+    <hr>
+    
+    <h3>Salir</h3>
+    <button>Cerrar Sesión</button>
+    
+    <hr>
+    
+    <p><strong>© 2025 Liceo Albonor</strong></p>
+    
+</body>
+</html>
