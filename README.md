@@ -16,3 +16,9 @@ Las instituciones educativas, especialmente los colegios y liceos, enfrentan mú
 - Dificultad en el Seguimiento: Complicado monitorear el progreso individual y grupal de estudiantes
 - Reportes Limitados: Generación manual de informes académicos consume recursos valiosos
 - Comunicación Fragmentada: Falta de un canal efectivo entre docentes, estudiantes y padres de familia
+
+Características Principales.-
+- Registro de notas
+- Registro de asistencia
+- Lista de registros realizados por curso
+- Salida para imprimir lista de registros
